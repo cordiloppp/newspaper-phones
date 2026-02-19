@@ -18,16 +18,23 @@ p {
 }
 
 a {
-    text-shadow: #fff;
-    text-shadow: 1px 1px 2px #000;;
+    text-shadow: 1px 1px 2px #000;
 }
 
 body {
   font-family: "Oswald", sans-serif;
-  background-color: #000000;
-  /* Pattern from https://www.heropatterns.com/ */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  color: #1e272e;
+background:
+  radial-gradient(circle at 10% 20%, rgba(255,255,255,0.06) 0%, transparent 35%),
+  radial-gradient(circle at 90% 80%, rgba(255,255,255,0.05) 0%, transparent 40%),
+  repeating-linear-gradient(
+    0deg,
+    rgba(255,255,255,0.02) 0px,
+    rgba(255,255,255,0.02) 1px,
+    transparent 1px,
+    transparent 3px
+  ),
+  linear-gradient(180deg, #0b0b0b 0%, #121212 40%, #1a1a1a 70%, #0e0e0e 100%);
+background-attachment: fixed;
   color: #fff;
   font-size: 16px;
 }
@@ -75,7 +82,7 @@ ul {
 }
 
 .nav-main ul li a:hover {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #007bff;
 }
 
 .nav-main ul.nav-menu {
@@ -159,15 +166,17 @@ hr {
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: #262626;
+    background: #007bff;
     color: #fff;
     font-size: 15px;
-    border: 1px solid #fff;
-
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  opacity: .7;
+  background: #0056b3;
+  border-color: #0056b3;
 }
 
 .showcase h2,
@@ -191,11 +200,10 @@ hr {
 
 .news-cards h3 {
   margin: 10px 0;
-  color: #f2f2f2;
+  color: #fff;
   text-transform: uppercase;
   display: inline-block;
   font-weight: bold;
-
 }
 .news-cards a:hover {
   text-decoration: underline;
@@ -212,7 +220,7 @@ hr {
 .cards-banner-one .content {
   width: 40%;
   padding: 90px 0 0 30px;
-  color: #f2f2f2;
+  color: #fff;
   text-shadow: 1px 1px 2px #000;
 }
 
@@ -230,7 +238,7 @@ hr {
 .cards-banner-two .content {
   width: 50%;
   padding: 100px 0 0 30px;
-  color: #f2f2f2;
+  color: #fff;
   text-shadow: 1px 1px 2px #000;
 }
 
@@ -258,8 +266,8 @@ hr {
 /* footer links */
 
 .footer-links {
-    background: black;
-    color: antiquewhite;
+    background: #1a1a1a;
+    color: #fff;
     font-size: 12px;
     padding: 35px 0;
 }
@@ -281,8 +289,8 @@ hr {
 }
 
 .footer {
-    background: #2f333a;
-    color: gray;
+    background: #000;
+    color: #ccc;
     text-align: center;
     padding: 20px 0;
 }
