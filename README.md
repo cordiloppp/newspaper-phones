@@ -52,22 +52,10 @@ newpaper-phones/
    - Navegador web moderno (Chrome, Firefox, Safari, Edge).
    - Conexión a internet para cargar fuentes externas (Google Fonts, Font Awesome).
 
-## Contribución
-
-Si deseas contribuir:
-1. Haz un fork del repositorio.
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y commitea (`git commit -am 'Agrega nueva funcionalidad'`).
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ## Contacto
 
-- **Autor**: [Tu Nombre]
+- **Autor**: [Jonathan Molinero]
 - **Email**: tmolineroperez9@gmail.com
 - **GitHub**: [cordiloppp](hhttps://github.com/cordiloppp)
 
