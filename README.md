@@ -68,7 +68,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 ## Contacto
 
 - **Autor**: [Tu Nombre]
-- **Email**: tu-email@example.com
-- **GitHub**: [tu-usuario](https://github.com/tu-usuario)
+- **Email**: tmolineroperez9@gmail.com
+- **GitHub**: [cordiloppp](hhttps://github.com/cordiloppp)
 
 ¡Gracias por visitar Newspaper Phones! Mantente al día con las últimas innovaciones en tecnología móvil.
