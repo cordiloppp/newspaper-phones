@@ -55,8 +55,8 @@ newpaper-phones/
 
 ## Contacto
 
-- **Autor**: [Jonathan Molinero]
-- **Email**: tmolineroperez9@gmail.com
+- **Autor**: Jonathan Molinero
+- **Email**: molineroperez9@gmail.com
 - **GitHub**: [cordiloppp](hhttps://github.com/cordiloppp)
 
 ¡Gracias por visitar Newspaper Phones! Mantente al día con las últimas innovaciones en tecnología móvil.
