@@ -1,12 +1,16 @@
-document.querySelector('.menu-btn').addEventListener('click', () => {
-    document.querySelector('.nav-main').classList.toggle('show');
+// Mobile menu: open and close the navigation, close it after choosing a section.
+const button = document.querySelector(".menu-btn");
+const menu = document.getElementById("menu");
+
+button.addEventListener("click", () => {
+  const open = menu.classList.toggle("show");
+  button.setAttribute("aria-expanded", String(open));
+  button.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
 });
 
-
-ScrollReveal().reveal('.showcase');
-
-ScrollReveal().reveal('.news-cards', {delay: 500 });
-
-ScrollReveal().reveal('.cards-banner-one', {delay: 500 });
-
-ScrollReveal().reveal('.cards-banner-two', {delay: 500 });
+menu.querySelectorAll("a").forEach((link) =>
+  link.addEventListener("click", () => {
+    menu.classList.remove("show");
+    button.setAttribute("aria-expanded", "false");
+  }),
+);
