@@ -1,5 +1,7 @@
 # Newspaper Phones
 
+**Demo en vivo:** https://newspaper-phones.vercel.app
+
 ## Descripción
 
 Newspaper Phones es un sitio web de noticias dedicado a la tecnología móvil. Proporciona reseñas, actualizaciones y análisis de los últimos smartphones de marcas líderes como Samsung, Huawei, Xiaomi y Apple. El sitio está diseñado con un enfoque en la experiencia del usuario, utilizando HTML, CSS y JavaScript para una navegación fluida y responsiva.
